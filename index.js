@@ -1,7 +1,9 @@
 // Code your solutions in this file
 countDown(integer) {
-  while (integer > 0) {
+  while (integer >= 0) {
     console.log(integer);
     integer-- ;
   }
 }
+
+countDown(10);
